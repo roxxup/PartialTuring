@@ -43,7 +43,7 @@ def Google1(string):
 
 def chatvoice(string):
 	
-	v = pyvona.create_voice('GDNAI2AAUGNCQFO4TFSA','a+MtpzzlpqskQsYFPMaczgYMbzXurj/i5vduNEzL')
+	v = pyvona.create_voice('username','password')
 	#v.region('en-IN')
 	#print v.list_voices() 
 	v.speak(string)
